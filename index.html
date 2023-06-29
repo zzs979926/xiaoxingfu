@@ -455,7 +455,7 @@
             //获取课程信息 参数1，第几页的数据，默认值是1，参数2是每页多少条数据，默认是8
             function getCourse(no = 1, size = 8) {
                 //向后端的API发送一个ajax请求
-                axios.get('http://api.fuming.site:54254/course', {
+                axios.get('https://api.fuming.site/course', {
                     params: {
                         pageNo: no,
                         pageSize: size
